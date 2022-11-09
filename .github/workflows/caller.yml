@@ -1,0 +1,7 @@
+on: [workflow_dispatch]
+
+jobs:
+  call-workflow-passing-data:
+    uses: sanjana-public-2-action/sanjana-public-2-action/.github/workflows/called.yml@main
+    with:
+      username: mona
